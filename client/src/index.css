@@ -4,9 +4,15 @@
 
 *{
      font-family: "Outfit", sans-serif;
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
 }
+body{
+     min-height: 100vh;
 
-@theme {
---color-primary:#4fbf8b ;
---color-primary-dull: #44ae7c;
+}
+a{
+     text-decoration: none;
+     color: inherit;
 }

@@ -1,843 +1,350 @@
-import logo from "./logo.svg";
-import search_icon from "./search_icon.svg";
-import remove_icon from "./remove_icon.svg";
-import arrow_right_icon_colored from "./arrow_right_icon_colored.svg";
-import star_icon from "./star_icon.svg";
-import star_dull_icon from "./star_dull_icon.svg";
-import cart_icon from "./cart_icon.svg";
-import nav_cart_icon from "./nav_cart_icon.svg";
-import add_icon from "./add_icon.svg";
-import refresh_icon from "./refresh_icon.svg";
-import product_list_icon from "./product_list_icon.svg";
-import order_icon from "./order_icon.svg";
-import upload_area from "./upload_area.png";
-import profile_icon from "./profile_icon.png";
-import menu_icon from "./menu_icon.svg";
-import delivery_truck_icon from "./delivery_truck_icon.svg";
-import leaf_icon from "./leaf_icon.svg";
-import coin_icon from "./coin_icon.svg";
-import box_icon from "./box_icon.svg";
-import trust_icon from "./trust_icon.svg";
-import black_arrow_icon from "./black_arrow_icon.svg";
-import white_arrow_icon from "./white_arrow_icon.svg";
-import main_banner_bg from "./main_banner_bg.png";
-import main_banner_bg_sm from "./main_banner_bg_sm.png";
-import bottom_banner_image from "./bottom_banner_image.png";
-import bottom_banner_image_sm from "./bottom_banner_image_sm.png";
-import add_address_iamge from "./add_address_image.svg";
-import organic_vegitable_image from "./organic_vegitable_image.png";
-import fresh_fruits_image from "./fresh_fruits_image.png";
-import bottles_image from "./bottles_image.png";
-import maggi_image from "./maggi_image.png";
-import dairy_product_image from "./dairy_product_image.png";
-import bakery_image from "./bakery_image.png";
-import grain_image from "./grain_image.png";
-import potato_image_1 from "./potato_image_1.png";
-import potato_image_2 from "./potato_image_2.png";
-import potato_image_3 from "./potato_image_3.png";
-import potato_image_4 from "./potato_image_4.png";
-import tomato_image from "./tomato_image.png";
-import carrot_image from "./carrot_image.png";
-import apple_image from "./apple_image.png";
-import amul_milk_image from "./amul_milk_image.png";
-import coca_cola_image from "./coca_cola_image.png";
-import brown_bread_image from "./brown_bread_image.png";
-import basmati_rice_image from "./basmati_rice_image.png";
-import paneer_image from "./paneer_image.png";
-import orange_image from "./orange_image.png";
-import pepsi_image from "./pepsi_image.png";
-import wheat_flour_image from "./wheat_flour_image.png";
-import cheese_image from "./cheese_image.png";
-import eggs_image from "./eggs_image.png";
-import spinach_image_1 from "./spinach_image_1.png";
-import onion_image_1 from "./onion_image_1.png";
-import banana_image_1 from "./banana_image_1.png";
-import mango_image_1 from "./mango_image_1.png";
-import grapes_image_1 from "./grapes_image_1.png";
-import paneer_image_2 from "./paneer_image_2.png";
-import sprite_image_1 from "./sprite_image_1.png";
-import fanta_image_1 from "./fanta_image_1.png";
-import seven_up_image_1 from "./seven_up_image_1.png";
-import top_ramen_image from "./top_ramen_image.png";
-import knorr_soup_image from "./knorr_soup_image.png";
-import yippee_image from "./yippee_image.png";
-import maggi_oats_image from "./maggi_oats_image.png";
-import butter_croissant_image from "./butter_croissant_image.png";
-import chocolate_cake_image from "./chocolate_cake_image.png";
-import whole_wheat_bread_image from "./whole_wheat_bread_image.png";
-import vanilla_muffins_image from "./vanilla_muffins_image.png";
-import quinoa_image from "./quinoa_image.png";
-import brown_rice_image from "./brown_rice_image.png";
-import barley_image from "./barley_image.png";
+import basket_icon from './basket_icon.png'
+import logo from './logo.png'
+import header_img from './header_img.png'
+import search_icon from './search_icon.png'
+import menu_1 from './menu_1.png'
+import menu_2 from './menu_2.png'
+import menu_3 from './menu_3.png'
+import menu_4 from './menu_4.png'
+import menu_5 from './menu_5.png'
+import menu_6 from './menu_6.png'
+import menu_7 from './menu_7.png'
+import menu_8 from './menu_8.png'
+
+import food_1 from './food_1.png'
+import food_2 from './food_2.png'
+import food_3 from './food_3.png'
+import food_4 from './food_4.png'
+import food_5 from './food_5.png'
+import food_6 from './food_6.png'
+import food_7 from './food_7.png'
+import food_8 from './food_8.png'
+import food_9 from './food_9.png'
+import food_10 from './food_10.png'
+import food_11 from './food_11.png'
+import food_12 from './food_12.png'
+import food_13 from './food_13.png'
+import food_14 from './food_14.png'
+import food_15 from './food_15.png'
+import food_16 from './food_16.png'
+import food_17 from './food_17.png'
+import food_18 from './food_18.png'
+import food_19 from './food_19.png'
+import food_20 from './food_20.png'
+import food_21 from './food_21.png'
+import food_22 from './food_22.png'
+import food_23 from './food_23.png'
+import food_24 from './food_24.png'
+import food_25 from './food_25.png'
+import food_26 from './food_26.png'
+import food_27 from './food_27.png'
+import food_28 from './food_28.png'
+import food_29 from './food_29.png'
+import food_30 from './food_30.png'
+import food_31 from './food_31.png'
+import food_32 from './food_32.png'
+
+import add_icon_white from './add_icon_white.png'
+import add_icon_green from './add_icon_green.png'
+import remove_icon_red from './remove_icon_red.png'
+import app_store from './app_store.png'
+import play_store from './play_store.png'
+import linkedin_icon from './linkedin_icon.png'
+import facebook_icon from './facebook_icon.png'
+import twitter_icon from './twitter_icon.png'
+import cross_icon from './cross_icon.png'
+import selector_icon from './selector_icon.png'
+import rating_starts from './rating_starts.png'
+import profile_icon from './profile_icon.png'
+import bag_icon from './bag_icon.png'
+import logout_icon from './logout_icon.png'
+import parcel_icon from './parcel_icon.png'
 
 export const assets = {
-  logo,
-  search_icon,
-  remove_icon,
-  arrow_right_icon_colored,
-  star_icon,
-  star_dull_icon,
-  cart_icon,
-  nav_cart_icon,
-  add_icon,
-  refresh_icon,
-  product_list_icon,
-  order_icon,
-  upload_area,
-  profile_icon,
-  menu_icon,
-  delivery_truck_icon,
-  leaf_icon,
-  coin_icon,
-  trust_icon,
-  black_arrow_icon,
-  white_arrow_icon,
-  main_banner_bg,
-  main_banner_bg_sm,
-  bottom_banner_image,
-  bottom_banner_image_sm,
-  add_address_iamge,
-  box_icon,
-};
+    logo,
+    basket_icon,
+    header_img,
+    search_icon,
+    rating_starts,
+    add_icon_green,
+    add_icon_white,
+    remove_icon_red,
+    app_store,
+    play_store,
+    linkedin_icon,
+    facebook_icon,
+    twitter_icon,
+    cross_icon,
+    selector_icon,
+    profile_icon,
+    logout_icon,
+    bag_icon,
+    parcel_icon
+}
 
-export const categories = [
-  {
-    text: "Organic veggies",
-    path: "Vegetables",
-    image: organic_vegitable_image,
-    bgColor: "#FEF6DA",
-  },
-  {
-    text: "Fresh Fruits",
-    path: "Fruits",
-    image: fresh_fruits_image,
-    bgColor: "#FEE0E0",
-  },
-  {
-    text: "Cold Drinks",
-    path: "Drinks",
-    image: bottles_image,
-    bgColor: "#F0F5DE",
-  },
-  {
-    text: "Instant Food",
-    path: "Instant",
-    image: maggi_image,
-    bgColor: "#E1F5EC",
-  },
-  {
-    text: "Dairy Products",
-    path: "Dairy",
-    image: dairy_product_image,
-    bgColor: "#FEE6CD",
-  },
-  {
-    text: "Bakery & Breads",
-    path: "Bakery",
-    image: bakery_image,
-    bgColor: "#E0F6FE",
-  },
-  {
-    text: "Grains & Cereals",
-    path: "Grains",
-    image: grain_image,
-    bgColor: "#F1E3F9",
-  },
-];
+export const menu_list = [
+    {
+        menu_name: "Salad",
+        menu_image: menu_1
+    },
+    {
+        menu_name: "Rolls",
+        menu_image: menu_2
+    },
+    {
+        menu_name: "Deserts",
+        menu_image: menu_3
+    },
+    {
+        menu_name: "Sandwich",
+        menu_image: menu_4
+    },
+    {
+        menu_name: "Cake",
+        menu_image: menu_5
+    },
+    {
+        menu_name: "Pure Veg",
+        menu_image: menu_6
+    },
+    {
+        menu_name: "Pasta",
+        menu_image: menu_7
+    },
+    {
+        menu_name: "Noodles",
+        menu_image: menu_8
+    }]
 
-export const footerLinks = [
-  {
-    title: "Quick Links",
-    links: [
-      { text: "Home", url: "#" },
-      { text: "Best Sellers", url: "#" },
-      { text: "Offers & Deals", url: "#" },
-      { text: "Contact Us", url: "#" },
-      { text: "FAQs", url: "#" },
-    ],
-  },
-  {
-    title: "Need help?",
-    links: [
-      { text: "Delivery Information", url: "#" },
-      { text: "Return & Refund Policy", url: "#" },
-      { text: "Payment Methods", url: "#" },
-      { text: "Track your Order", url: "#" },
-      { text: "Contact Us", url: "#" },
-    ],
-  },
-  {
-    title: "Follow Us",
-    links: [
-      { text: "Instagram", url: "#" },
-      { text: "Twitter", url: "#" },
-      { text: "Facebook", url: "#" },
-      { text: "YouTube", url: "#" },
-    ],
-  },
-];
-
-export const features = [
-  {
-    icon: delivery_truck_icon,
-    title: "Fastest Delivery",
-    description: "Groceries delivered in under 30 minutes.",
-  },
-  {
-    icon: leaf_icon,
-    title: "Freshness Guaranteed",
-    description: "Fresh produce straight from the source.",
-  },
-  {
-    icon: coin_icon,
-    title: "Affordable Prices",
-    description: "Quality groceries at unbeatable prices.",
-  },
-  {
-    icon: trust_icon,
-    title: "Trusted by Thousands",
-    description: "Loved by 10,000+ happy customers.",
-  },
-];
-
-export const dummyProducts = [
-  // Vegetables
-  {
-    _id: "gd46g23h",
-    name: "Potato 500g",
-    category: "Vegetables",
-    price: 25,
-    offerPrice: 20,
-    image: [potato_image_1, potato_image_2, potato_image_3, potato_image_4],
-    description: [
-      "Fresh and organic",
-      "Rich in carbohydrates",
-      "Ideal for curries and fries",
-    ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-  {
-    _id: "gd47g34h",
-    name: "Tomato 1 kg",
-    category: "Vegetables",
-    price: 40,
-    offerPrice: 35,
-    image: [tomato_image],
-    description: [
-      "Juicy and ripe",
-      "Rich in Vitamin C",
-      "Perfect for salads and sauces",
-      "Farm fresh quality",
-    ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-  {
-    _id: "gd48g45h",
-    name: "Carrot 500g",
-    category: "Vegetables",
-    price: 30,
-    offerPrice: 28,
-    image: [carrot_image],
-    description: [
-      "Sweet and crunchy",
-      "Good for eyesight",
-      "Ideal for juices and salads",
-    ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-  {
-    _id: "gd49g56h",
-    name: "Spinach 500g",
-    category: "Vegetables",
-    price: 18,
-    offerPrice: 15,
-    image: [spinach_image_1],
-    description: [
-      "Rich in iron",
-      "High in vitamins",
-      "Perfect for soups and salads",
-    ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-  {
-    _id: "gd50g67h",
-    name: "Onion 500g",
-    category: "Vegetables",
-    price: 22,
-    offerPrice: 19,
-    image: [onion_image_1],
-    description: [
-      "Fresh and pungent",
-      "Perfect for cooking",
-      "A kitchen staple",
-    ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-
-  // Fruits
-  {
-    _id: "ek51j12k",
-    name: "Apple 1 kg",
-    category: "Fruits",
-    price: 120,
-    offerPrice: 110,
-    image: [apple_image],
-    description: [
-      "Crisp and juicy",
-      "Rich in fiber",
-      "Boosts immunity",
-      "Perfect for snacking and desserts",
-      "Organic and farm fresh",
-    ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-  {
-    _id: "ek52j23k",
-    name: "Orange 1 kg",
-    category: "Fruits",
-    price: 80,
-    offerPrice: 75,
-    image: [orange_image],
-    description: [
-      "Juicy and sweet",
-      "Rich in Vitamin C",
-      "Perfect for juices and salads",
-    ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-  {
-    _id: "ek53j34k",
-    name: "Banana 1 kg",
-    category: "Fruits",
-    price: 50,
-    offerPrice: 45,
-    image: [banana_image_1],
-    description: [
-      "Sweet and ripe",
-      "High in potassium",
-      "Great for smoothies and snacking",
-    ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-  {
-    _id: "ek54j45k",
-    name: "Mango 1 kg",
-    category: "Fruits",
-
-    price: 150,
-    offerPrice: 140,
-    image: [mango_image_1],
-    description: [
-      "Sweet and flavorful",
-      "Perfect for smoothies and desserts",
-      "Rich in Vitamin A",
-    ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-  {
-    _id: "ek55j56k",
-    name: "Grapes 500g",
-    category: "Fruits",
-    price: 70,
-    offerPrice: 65,
-    image: [grapes_image_1],
-    description: [
-      "Fresh and juicy",
-      "Rich in antioxidants",
-      "Perfect for snacking and fruit salads",
-    ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-
-  // Dairy
-  {
-    _id: "ek56j67k",
-    name: "Amul Milk 1L",
-    category: "Dairy",
-    price: 60,
-    offerPrice: 55,
-    image: [amul_milk_image],
-    description: [
-      "Pure and fresh",
-      "Rich in calcium",
-      "Ideal for tea, coffee, and desserts",
-      "Trusted brand quality",
-    ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-  {
-    _id: "ek57j78k",
-    name: "Paneer 200g",
-    category: "Dairy",
-    price: 90,
-    offerPrice: 85,
-    image: [paneer_image],
-    description: [
-      "Soft and fresh",
-      "Rich in protein",
-      "Ideal for curries and snacks",
-    ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-  {
-    _id: "ek58j89k",
-    name: "Eggs 12 pcs",
-    category: "Dairy",
-    price: 90,
-    offerPrice: 85,
-    image: [eggs_image],
-    description: [
-      "Farm fresh",
-      "Rich in protein",
-      "Ideal for breakfast and baking",
-    ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-  {
-    _id: "ek59j90k",
-    name: "Paneer 200g",
-    category: "Dairy",
-    price: 90,
-    offerPrice: 85,
-    image: [paneer_image_2],
-    description: [
-      "Soft and fresh",
-      "Rich in protein",
-      "Ideal for curries and snacks",
-    ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-  {
-    _id: "ek60j01k",
-    name: "Cheese 200g",
-    category: "Dairy",
-    price: 140,
-    offerPrice: 130,
-    image: [cheese_image],
-    description: [
-      "Creamy and delicious",
-      "Perfect for pizzas and sandwiches",
-      "Rich in calcium",
-    ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-
-  // Drinks
-  {
-    _id: "ek61j12k",
-    name: "Coca-Cola 1.5L",
-    category: "Drinks",
-    price: 80,
-    offerPrice: 75,
-    image: [coca_cola_image],
-    description: [
-      "Refreshing and fizzy",
-      "Perfect for parties and gatherings",
-      "Best served chilled",
-    ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-  {
-    _id: "ek62j23k",
-    name: "Pepsi 1.5L",
-    category: "Drinks",
-    price: 78,
-    offerPrice: 73,
-    image: [pepsi_image],
-    description: [
-      "Chilled and refreshing",
-      "Perfect for celebrations",
-      "Best served cold",
-    ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-  {
-    _id: "ek63j34k",
-    name: "Sprite 1.5L",
-    category: "Drinks",
-    price: 79,
-    offerPrice: 74,
-    image: [sprite_image_1],
-    description: [
-      "Refreshing citrus taste",
-      "Perfect for hot days",
-      "Best served chilled",
-    ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-  {
-    _id: "ek64j45k",
-    name: "Fanta 1.5L",
-    category: "Drinks",
-    price: 77,
-    offerPrice: 72,
-    image: [fanta_image_1],
-    description: [
-      "Sweet and fizzy",
-      "Great for parties and gatherings",
-      "Best served cold",
-    ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-  {
-    _id: "ek65j56k",
-    name: "7 Up 1.5L",
-    category: "Drinks",
-    price: 76,
-    offerPrice: 71,
-    image: [seven_up_image_1],
-    description: [
-      "Refreshing lemon-lime flavor",
-      "Perfect for refreshing",
-      "Best served chilled",
-    ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-
-  // Grains
-  {
-    _id: "ek66j67k",
-    name: "Basmati Rice 5kg",
-    category: "Grains",
-    price: 550,
-    offerPrice: 520,
-    image: [basmati_rice_image],
-    description: [
-      "Long grain and aromatic",
-      "Perfect for biryani and pulao",
-      "Premium quality",
-    ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-  {
-    _id: "ek67j78k",
-    name: "Wheat Flour 5kg",
-    category: "Grains",
-    price: 250,
-    offerPrice: 230,
-    image: [wheat_flour_image],
-    description: [
-      "High-quality whole wheat",
-      "Soft and fluffy rotis",
-      "Rich in nutrients",
-    ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-  {
-    _id: "ek68j89k",
-    name: "Organic Quinoa 500g",
-    category: "Grains",
-    price: 450,
-    offerPrice: 420,
-    image: [quinoa_image],
-    description: [
-      "High in protein and fiber",
-      "Gluten-free",
-      "Rich in vitamins and minerals",
-    ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-  {
-    _id: "ek69j90k",
-    name: "Brown Rice 1kg",
-    category: "Grains",
-    price: 120,
-    offerPrice: 110,
-    image: [brown_rice_image],
-    description: [
-      "Whole grain and nutritious",
-      "Helps in weight management",
-      "Good source of magnesium",
-    ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-  {
-    _id: "ek70j01k",
-    name: "Barley 1kg",
-    category: "Grains",
-    price: 150,
-    offerPrice: 140,
-    image: [barley_image],
-    description: [
-      "Rich in fiber",
-      "Helps improve digestion",
-      "Low in fat and cholesterol",
-    ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-
-  // Bakery
-  {
-    _id: "bk01a24z",
-    name: "Brown Bread 400g",
-    category: "Bakery",
-    price: 40,
-    offerPrice: 35,
-    image: [brown_bread_image],
-    description: [
-      "Soft and healthy",
-      "Made from whole wheat",
-      "Ideal for breakfast and sandwiches",
-    ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-  {
-    _id: "bk02b30y",
-    name: "Butter Croissant 100g",
-    category: "Bakery",
-    price: 50,
-    offerPrice: 45,
-    image: [butter_croissant_image],
-    description: [
-      "Flaky and buttery",
-      "Freshly baked",
-      "Perfect for breakfast or snacks",
-    ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-  {
-    _id: "bk03c31x",
-    name: "Chocolate Cake 500g",
-    category: "Bakery",
-    price: 350,
-    offerPrice: 325,
-    image: [chocolate_cake_image],
-    description: [
-      "Rich and moist",
-      "Made with premium cocoa",
-      "Ideal for celebrations and parties",
-    ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-  {
-    _id: "bk04d32w",
-    name: "Whole Bread 400g",
-    category: "Bakery",
-    price: 45,
-    offerPrice: 40,
-    image: [whole_wheat_bread_image],
-    description: [
-      "Healthy and nutritious",
-      "Made with whole wheat flour",
-      "Ideal for sandwiches and toast",
-    ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-  {
-    _id: "bk05e33v",
-    name: "Vanilla Muffins 6 pcs",
-    category: "Bakery",
-    price: 100,
-    offerPrice: 90,
-    image: [vanilla_muffins_image],
-    description: [
-      "Soft and fluffy",
-      "Perfect for a quick snack",
-      "Made with real vanilla",
-    ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-
-  // Instant
-  {
-    _id: "in01f25u",
-    name: "Maggi Noodles 280g",
-    category: "Instant",
-
-    price: 55,
-    offerPrice: 50,
-    image: [maggi_image],
-    description: [
-      "Instant and easy to cook",
-      "Delicious taste",
-      "Popular among kids and adults",
-    ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-  {
-    _id: "in02g26t",
-    name: "Top Ramen 270g",
-    category: "Instant",
-    price: 45,
-    offerPrice: 40,
-    image: [top_ramen_image],
-    description: [
-      "Quick and easy to prepare",
-      "Spicy and flavorful",
-      "Loved by college students and families",
-    ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-  {
-    _id: "in03h27s",
-    name: "Knorr Cup Soup 70g",
-    category: "Instant",
-    price: 35,
-    offerPrice: 30,
-    image: [knorr_soup_image],
-    description: [
-      "Convenient for on-the-go",
-      "Healthy and nutritious",
-      "Variety of flavors",
-    ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-  {
-    _id: "in04i28r",
-    name: "Yippee Noodles 260g",
-    category: "Instant",
-    price: 50,
-    offerPrice: 45,
-    image: [yippee_image],
-    description: [
-      "Non-fried noodles for healthier choice",
-      "Tasty and filling",
-      "Convenient for busy schedules",
-    ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-  {
-    _id: "in05j29q",
-    name: "Oats Noodles 72g",
-    category: "Instant",
-    price: 40,
-    offerPrice: 35,
-    image: [maggi_oats_image],
-    description: [
-      "Healthy alternative with oats",
-      "Good for digestion",
-      "Perfect for breakfast or snacks",
-    ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-];
-
-export const dummyAddress = [
-  {
-    _id: "67b5b9e54ea97f71bbc196a0",
-    userId: "67b5880e4d09769c5ca61644",
-    firstName: "Great",
-    lastName: "Stack",
-    email: "user.greatstack@gmail.com",
-    street: "Street 123",
-    city: "Main City",
-    state: "New State",
-    zipcode: 123456,
-    country: "IN",
-    phone: "1234567890",
-  },
-];
-
-export const dummyOrders = [
-  {
-    _id: "67e2589a8f87e63366786400",
-    userId: "67b5880e4d09769c5ca61644",
-    items: [
-      {
-        product: dummyProducts[3],
-        quantity: 2,
-        _id: "67e2589a8f87e63366786401",
-      },
-    ],
-    amount: 89,
-    address: dummyAddress[0],
-    status: "Order Placed",
-    paymentType: "Online",
-    isPaid: true,
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-  },
-  {
-    _id: "67e258798f87e633667863f2",
-    userId: "67b5880e4d09769c5ca61644",
-    items: [
-      {
-        product: dummyProducts[0],
-        quantity: 1,
-        _id: "67e258798f87e633667863f3",
-      },
-      {
-        product: dummyProducts[1],
-        quantity: 1,
-        _id: "67e258798f87e633667863f4",
-      },
-    ],
-    amount: 43,
-    address: dummyAddress[0],
-    status: "Order Placed",
-    paymentType: "COD",
-    isPaid: false,
-    createdAt: "2025-03-25T07:17:13.068Z",
-    updatedAt: "2025-03-25T07:17:13.068Z",
-  },
-];
+export const food_list = [
+    {
+        _id: "1",
+        name: "Greek salad",
+        image: food_1,
+        price: 12,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Salad"
+    },
+    {
+        _id: "2",
+        name: "Veg salad",
+        image: food_2,
+        price: 18,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Salad"
+    }, {
+        _id: "3",
+        name: "Clover Salad",
+        image: food_3,
+        price: 16,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Salad"
+    }, {
+        _id: "4",
+        name: "Chicken Salad",
+        image: food_4,
+        price: 24,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Salad"
+    }, {
+        _id: "5",
+        name: "Lasagna Rolls",
+        image: food_5,
+        price: 14,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Rolls"
+    }, {
+        _id: "6",
+        name: "Peri Peri Rolls",
+        image: food_6,
+        price: 12,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Rolls"
+    }, {
+        _id: "7",
+        name: "Chicken Rolls",
+        image: food_7,
+        price: 20,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Rolls"
+    }, {
+        _id: "8",
+        name: "Veg Rolls",
+        image: food_8,
+        price: 15,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Rolls"
+    }, {
+        _id: "9",
+        name: "Ripple Ice Cream",
+        image: food_9,
+        price: 14,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Deserts"
+    }, {
+        _id: "10",
+        name: "Fruit Ice Cream",
+        image: food_10,
+        price: 22,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Deserts"
+    }, {
+        _id: "11",
+        name: "Jar Ice Cream",
+        image: food_11,
+        price: 10,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Deserts"
+    }, {
+        _id: "12",
+        name: "Vanilla Ice Cream",
+        image: food_12,
+        price: 12,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Deserts"
+    },
+    {
+        _id: "13",
+        name: "Chicken Sandwich",
+        image: food_13,
+        price: 12,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Sandwich"
+    },
+    {
+        _id: "14",
+        name: "Vegan Sandwich",
+        image: food_14,
+        price: 18,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Sandwich"
+    }, {
+        _id: "15",
+        name: "Grilled Sandwich",
+        image: food_15,
+        price: 16,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Sandwich"
+    }, {
+        _id: "16",
+        name: "Bread Sandwich",
+        image: food_16,
+        price: 24,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Sandwich"
+    }, {
+        _id: "17",
+        name: "Cup Cake",
+        image: food_17,
+        price: 14,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Cake"
+    }, {
+        _id: "18",
+        name: "Vegan Cake",
+        image: food_18,
+        price: 12,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Cake"
+    }, {
+        _id: "19",
+        name: "Butterscotch Cake",
+        image: food_19,
+        price: 20,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Cake"
+    }, {
+        _id: "20",
+        name: "Sliced Cake",
+        image: food_20,
+        price: 15,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Cake"
+    }, {
+        _id: "21",
+        name: "Garlic Mushroom ",
+        image: food_21,
+        price: 14,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Pure Veg"
+    }, {
+        _id: "22",
+        name: "Fried Cauliflower",
+        image: food_22,
+        price: 22,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Pure Veg"
+    }, {
+        _id: "23",
+        name: "Mix Veg Pulao",
+        image: food_23,
+        price: 10,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Pure Veg"
+    }, {
+        _id: "24",
+        name: "Rice Zucchini",
+        image: food_24,
+        price: 12,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Pure Veg"
+    },
+    {
+        _id: "25",
+        name: "Cheese Pasta",
+        image: food_25,
+        price: 12,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Pasta"
+    },
+    {
+        _id: "26",
+        name: "Tomato Pasta",
+        image: food_26,
+        price: 18,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Pasta"
+    }, {
+        _id: "27",
+        name: "Creamy Pasta",
+        image: food_27,
+        price: 16,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Pasta"
+    }, {
+        _id: "28",
+        name: "Chicken Pasta",
+        image: food_28,
+        price: 24,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Pasta"
+    }, {
+        _id: "29",
+        name: "Buttter Noodles",
+        image: food_29,
+        price: 14,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Noodles"
+    }, {
+        _id: "30",
+        name: "Veg Noodles",
+        image: food_30,
+        price: 12,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Noodles"
+    }, {
+        _id: "31",
+        name: "Somen Noodles",
+        image: food_31,
+        price: 20,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Noodles"
+    }, {
+        _id: "32",
+        name: "Cooked Noodles",
+        image: food_32,
+        price: 15,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Noodles"
+    }
+]
