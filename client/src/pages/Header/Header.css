@@ -62,3 +62,23 @@
   font-size: max(1.4vw, 16px);
   cursor: pointer;         
 }
+@media (max-width: 1050px) {
+ 
+  .header-contents {
+    max-width: 45%;
+  }
+}
+
+@media (max-width: 750px) {
+  .header-contents {
+    max-width: 55%;
+  }
+
+  .header-contentsIp {
+    display: none;
+  }
+
+  .header-contents button {
+    padding: 2vw 4vw;
+  }
+}
