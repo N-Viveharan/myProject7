@@ -5,7 +5,7 @@ import ExploreMenu from '../../components/ExploreMenu/ExploreMenu'
 import FoodDisplay from '../../components/FoodDisplay/FoodDisplay';
 function Home() {
 
-    const [category, setCategory] = useState("ALL");
+    const [category, setCategory] = useState("All");
   return (
     <div>
         <Header/>
