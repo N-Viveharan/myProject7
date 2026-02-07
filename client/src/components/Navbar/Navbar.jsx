@@ -23,7 +23,7 @@ function Navbar({setShowLogin}) {
                 <div className="navbar-search-icon">
                     <Link to='/cart'><img src={assets.basket_icon} alt="basket" /></Link>
                     
-                    <div className={getTotalCartAmount()?"":"dot"}></div>
+                    <div className={getTotalCartAmount()===0?"":"dot"}></div>
                 </div>
 
                 <button onClick={()=>setShowLogin(true)}>Sign In</button>
