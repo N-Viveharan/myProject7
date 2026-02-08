@@ -15,6 +15,7 @@ connectDB()
 //api end point
 
 app.use("api/food",foodRouter)
+app.use("/images", express.static("uploads"));
 
 
 // test route
