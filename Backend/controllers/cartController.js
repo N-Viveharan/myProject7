@@ -7,6 +7,9 @@ const addToCart = async (req, res) => {
       return res.json({ success: false, message: "User not found" });
     }
 
+
+
+    
     // Ensure cartData exists
     let cartData = userData.cartData || {};
 
